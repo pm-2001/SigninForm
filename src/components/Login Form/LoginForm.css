@@ -82,6 +82,11 @@
     cursor: pointer;
     font-weight: 700; 
 }
+.wrapper button:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
 
 .register{
     font-size: 14.5px;
@@ -97,4 +102,24 @@
 
 .register a:hover{
     text-decoration: underline;
+}
+
+.others{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 70px 0 70px;
+    font-size: 20px;
+}
+
+.others a{
+    background: white;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    padding: 6px 8px 0 8px;
+    color: rgb(0, 0, 0);
+}
+
+.others a:hover{
+    background: transparent;
+    color: rgb(255, 255, 255);
 }

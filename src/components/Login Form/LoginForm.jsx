@@ -1,6 +1,8 @@
 import React from "react";
 import "./LoginForm.css";
-import { FaLock, FaUser } from "react-icons/fa";
+import { FaLock, FaUser, FaGoogle , FaFacebookF} from "react-icons/fa";
+import { TbBrandGithubFilled } from "react-icons/tb";
+
 
 const LoginForm = () => {
     return (
@@ -24,6 +26,11 @@ const LoginForm = () => {
                     <a href=" ">Forgot Password?</a>
                 </div>
                 <button type="submit">Login</button>
+                <div className="others">
+                    <a href=" "><FaGoogle /></a>
+                    <a href=" "><TbBrandGithubFilled /></a>
+                    <a href=" "><FaFacebookF /></a>
+                </div>
                 <div className="register">
                     Don't have an account? <a href=" ">Sign Up</a>
                 </div>
